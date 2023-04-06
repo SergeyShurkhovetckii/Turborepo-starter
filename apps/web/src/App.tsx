@@ -1,11 +1,25 @@
-import { Button } from "flowbite-react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { Error400 } from "./components/Error/Error400";
+import { Layout } from "./components/Layout/Layout";
+import { Home } from "./components/Home/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    errorElement: <Error400 />,
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div className="flex justify-center mt-7">
-      <Button>Click Me</Button>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
