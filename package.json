@@ -26,6 +26,7 @@
   "packageManager": "npm@7.24.0",
   "dependencies": {
     "flowbite": "^1.6.4",
-    "flowbite-react": "^0.4.3"
+    "flowbite-react": "^0.4.3",
+    "react-router-dom": "^6.10.0"
   }
 }
