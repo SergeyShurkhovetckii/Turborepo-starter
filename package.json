@@ -1,0 +1,31 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.21",
+    "prettier": "latest",
+    "tailwindcss": "^3.3.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@7.24.0",
+  "dependencies": {
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.3"
+  }
+}
