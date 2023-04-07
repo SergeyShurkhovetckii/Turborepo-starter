@@ -1,0 +1,9 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["coverage/*"],
+  "extends": ["plugin:storybook/recommended"]
+}
