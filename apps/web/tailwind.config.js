@@ -1,7 +1,7 @@
 module.exports = {
     content: [
-        './src/**/*.{html,js,jsx,ts,tsx}',
-        'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+        './src/**/*.{js,ts,jsx,tsx}',
+        '../../packages/ui/src/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
         theme: {
@@ -30,7 +30,7 @@ module.exports = {
                     white: 'inset 0px -2px 0px rgba(23, 16, 52, 0.14) ',
                 },
                 fontFamily: {
-                    roboto: "'Roboto', sans-serif",
+                    aero: "'Aeroport', sans-serif",
                     mono: 'Roboto Mono, sans-serif',
                 },
                 keyframes: {
