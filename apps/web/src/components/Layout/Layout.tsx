@@ -17,7 +17,7 @@ export const Layout = () => {
                     <Outlet />
                 </main>
             </div>
-            <footer className="hidden bg-dark bg-cover bg-no-repeat py-10 sm:bg-[url('/backFooter.svg')] lg:block">
+            <footer className="hidden py-10 bg-no-repeat bg-cover bg-dark bg-slate-900 lg:block">
                 <div className="mx-auto flex max-w-[1200px] items-center justify-between">
                     <div className="flex flex-col gap-6">
                         <a className="text-white text-2xs opacity-40" href="/">
