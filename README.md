@@ -1,6 +1,6 @@
-# Turborepo starter
+# Готовая сборка Turborepo
 
-This is an official npm starter turborepo.
+<img with = "300" src = "Readme/img/turbo_repo.png">
 
 ## What's inside?
 
