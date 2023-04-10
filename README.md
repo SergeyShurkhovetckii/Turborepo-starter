@@ -1,6 +1,8 @@
 # Готовая сборка Turborepo
 
-<img with = "300" src = "Readme/img/turbo_repo.png">
+<a href="#">
+<img  width="150" height="150" src = "Readme/img/turbo_repo.png">
+</a>
 
 ## What's inside?
 
