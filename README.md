@@ -5,7 +5,7 @@
 </a>
 
 <a href="#">
-<img  width="300" height="50" src = "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png">
+<img  width="400" src = "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png">
 </a>
 
 ## What's inside?
