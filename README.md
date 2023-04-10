@@ -5,10 +5,10 @@
 <img src = "Readme/turbo.png">
 </a>
 <a href="#">
-<img  width="400" src = "Readme/storybook.png">
+<img  src = "Readme/storybook.png">
 </a>
 <a href="#">
-<img  width="400" src = "Readme/vite.png">
+<img  src = "Readme/vite.png">
 </a>
 </div>
 
