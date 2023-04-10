@@ -1,7 +1,7 @@
 # Готовая сборка Turborepo
 
 <a href="#">
-<img  width="150" height="150" src = "https://user-images.githubusercontent.com/4060187/196936104-5797972c-ab10-4834-bd61-0d1e5f442c9c.png">
+<img  width="50" height="50" src = "https://user-images.githubusercontent.com/4060187/196936104-5797972c-ab10-4834-bd61-0d1e5f442c9c.png">
 </a>
 
 ## What's inside?
