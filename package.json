@@ -26,6 +26,7 @@
   },
   "packageManager": "npm@7.24.0",
   "dependencies": {
+    "clsx": "^1.2.1",
     "react-router-dom": "^6.10.0",
     "vite-plugin-svgr": "^2.4.0"
   }
