@@ -38,6 +38,8 @@ To develop all apps and packages, run the following command:
 ```
 cd my-turborepo
 npm run dev
+Vite: http://localhost:5173/
+Styrybook :http://localhost:6006/
 ```
 
 ### Remote Caching
