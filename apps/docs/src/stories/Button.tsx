@@ -1,48 +1,44 @@
-import React from 'react';
-import './button.css';
+import type { Meta, StoryObj } from "@storybook/react";
 
-interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean;
-  /**
-   * What background color to use
-   */
-  backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
-  size?: 'small' | 'medium' | 'large';
-  /**
-   * Button contents
-   */
-  label: string;
-  /**
-   * Optional click handler
-   */
-  onClick?: () => void;
-}
+import { Button } from "ui";
 
-/**
- * Primary UI component for user interaction
- */
-export const Button = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
-  label,
-  ...props
-}: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  return (
-    <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor }}
-      {...props}
-    >
-      {label}
-    </button>
-  );
+// More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
+const meta = {
+  title: "Example/Button",
+  component: Button,
+  tags: ["autodocs"],
+  argTypes: {
+    backgroundColor: { control: "color" },
+  },
+} satisfies Meta<typeof Button>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+// More on writing stories with args: https://storybook.js.org/docs/7.0/react/writing-stories/args
+export const Primary: Story = {
+  args: {
+    primary: true,
+    label: "Button",
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    label: "Button",
+  },
+};
+
+export const Large: Story = {
+  args: {
+    size: "large",
+    label: "Button",
+  },
+};
+
+export const Small: Story = {
+  args: {
+    size: "small",
+    label: "Button",
+  },
 };
