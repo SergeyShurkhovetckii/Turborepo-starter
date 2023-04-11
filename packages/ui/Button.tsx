@@ -24,7 +24,7 @@ interface ButtonProps {
    */
   onClick?: () => void;
 
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 /**

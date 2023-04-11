@@ -25,8 +25,7 @@ export const Home = () => {
             <h1>Vite + React</h1>
             <div className="card">
                 <Button
-                    label={'Count'}
-                    primary
+                    label={'Count '}
                     onClick={() => setCount((count) => count + 1)}
                 >
                     {count}
