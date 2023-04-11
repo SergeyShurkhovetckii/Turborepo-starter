@@ -4,10 +4,13 @@ import viteLogo from './vite.svg';
 
 import './Home.css';
 
+import { Button } from 'ui';
+
 export const Home = () => {
     const [count, setCount] = useState(0);
     return (
         <div className="App">
+            <Button />
             <div className="flex justify-center gap-5">
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
