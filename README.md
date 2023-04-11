@@ -1,35 +1,24 @@
 # Готовая сборка Turborepo
 
-<div>
-<a href="#">
-<img src = "Readme/turbo.png">
-</a>
-<a href="#">
-<img  src = "Readme/storybook.png">
-</a>
-<a href="#">
-<img  src = "Readme/vite.png">
-</a>
-</div>
+<p align="center">
+  <a href="https://turbo.build">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/4060187/196936123-f6e1db90-784d-4174-b774-92502b718836.png">
+      <img src="https://user-images.githubusercontent.com/4060187/196936104-5797972c-ab10-4834-bd61-0d1e5f442c9c.png" height="128">
+    </picture>
+    <h1 align="center">Turbo</h1>
+  </a>
+</p>
 
-## Особенности сборки
+## Utilities
 
-- `docs`: a [Storybook](https://storybook.js.org/) app
-- `web`: another [Vite](https://vitejs.dev/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+* Used by [Vite](https://vitejs.dev/) Fast build time
+* Supports [TypeScript](https://www.typescriptlang.org/) out of the box and makes project installation easy
+* Integration [Storybook](https://storybook.js.org/) Tool for developing UI components
+* Used by [Turborepo](https://turbo.build/) TuroRepo part of code management since each component is in a separate repository
+* [ESlint](https://eslint.org/) Error and problem detection: ESLint can detect many errors
+* [Prettier](https://prettier.io/) simplify the formatting process and use a consistent code style across the project.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-- [Storybook](https://storybook.js.org/) for code formatting
 
 ### Build
 
