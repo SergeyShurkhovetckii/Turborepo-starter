@@ -13,6 +13,8 @@
 ## Utilities
 
 * Used by [Vite](https://vitejs.dev/) Fast build time
+* Used by [Mock Service Worker](https://mswjs.io/docs/getting-started) 
+Imitation back
 * Supports [TypeScript](https://www.typescriptlang.org/) out of the box and makes project installation easy
 * Integration [Storybook](https://storybook.js.org/) Tool for developing UI components
 * Used by [Turborepo](https://turbo.build/) TuroRepo part of code management since each component is in a separate repository
