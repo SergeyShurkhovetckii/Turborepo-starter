@@ -4,7 +4,9 @@ import App from './App';
 import './index.css';
 
 import { setupWorker, rest } from 'msw';
+
 const worker = setupWorker(
+    // Тестовый ответ от сервера
     rest.get('/users/:userId', (req, res, ctx) => {
         const { userId } = req.params;
         return res(
